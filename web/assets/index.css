@@ -1,0 +1,26 @@
+:root {
+  --background: #fff;
+  --color: #000;
+}
+
+html {
+  background: var(--background);
+  color: var(--color);
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000;
+    --color: #8d8d8d;
+  }
+}
